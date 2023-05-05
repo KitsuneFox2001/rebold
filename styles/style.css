@@ -1,0 +1,163 @@
+.centered {
+    margin: auto;
+}
+
+button,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body {
+    background-image: url("../img/bg.png");
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.logo {
+    margin: auto !important;
+    text-align: center;
+    color: #EFEFEF;
+    height: 200px;
+}
+
+#main {
+    background-image: url("../img/bg.png")
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.card {
+    background-color: #202020 !important;
+    color: #EFEFEF;
+}
+
+.card-dg {
+    background-color: #0a0a0a !important;
+    color: #EFEFEF;
+}
+
+.trapezoid {
+    width: 120px;
+    text-align: center;
+    height: 0; 
+    position: relative;
+    border-right: 0px solid transparent;
+    border-top: 0px solid #007bff;
+    border-bottom: 40px solid #007bff;
+    border-left: 50px solid transparent;
+    box-sizing: content-box;
+    background-color: #00000000;
+}
+
+.trapezoid:hover {
+    width: 120px;
+    text-align: center;
+    height: 0; 
+    position: relative;
+    border-right: 0px solid transparent;
+    border-top: 0px solid #0069d9;
+    border-bottom: 40px solid #0069d9;
+    border-left: 50px solid transparent;
+    box-sizing: content-box;
+    background-color: #00000000;
+}
+
+.trapezoid span { 
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    color: #fff;
+}
+
+footer.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%);
+    pointer-events: none;
+}
+
+.orange {
+    background-color: #0f0f0f;
+}
+
+.yt-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 3rem;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.yt-handle {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.yt-subs {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.discontinued {
+    background-image: url("../img/DISCONTINUED.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: top right;
+}
+
+/* rozmiary na komórki */
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .yt-title {
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 3rem;
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+    
+    .yt-handle {
+        color: #aaaaaa;
+        font-size: 14px;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+    
+    .yt-subs {
+        color: #aaaaaa;
+        font-size: 14px;
+        line-height: 2rem;
+        font-weight: 400;
+    }
+
+    .discontinued {
+        background-image: url("../img/DISCONTINUED.png");
+        background-repeat: no-repeat;
+        background-size: 40% !important;
+        background-position: top right;
+    }
+}
+
+.accordion1 {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
